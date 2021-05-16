@@ -9,4 +9,4 @@ arduino_bicycle_computer
 
 61 = wheelcount pulses
 
-https://github.com/ldijkman/arduino_bicycle_computer/blob/main/oled_speed.jpg
+<img src="https://github.com/ldijkman/arduino_bicycle_computer/blob/main/oled_speed.jpg">
