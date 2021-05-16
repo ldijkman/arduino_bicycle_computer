@@ -1,5 +1,5 @@
 // DIY BiCycle Speedometer 
-// distance and km/h 
+// distance in meter and speed in kilometer/hour 
 // arduino nano 
 // hall sensor 
 // oled display
