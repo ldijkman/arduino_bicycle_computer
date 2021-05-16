@@ -32,11 +32,9 @@ int n = 0;
 int count = 0;
 double instant = 0;
 double previnstant = 0;
-double prevprevinstant = 0;
 int wheelcount = 0;
 int lastwheelcount = 0;
 float velocity = 0;
-float accleration = 0;
 float distance = 0;
 int temp;
 unsigned long starttime;
@@ -101,23 +99,15 @@ void loop()
 
 void cross()
 {
-  prevprevinstant = previnstant;
   previnstant = instant;
   instant = micros() / 1000.0;
   wheelcount++;
 
-
   if (wheelcount > 2)
   {
     distance = wheelcount * diameter * pi;
-    velocity = diameter / (instant - previnstant) * pi;
-    accleration = 2 * diameter * pi * (1 / (instant - previnstant) - 1 / (previnstant - prevprevinstant)) / (instant - prevprevinstant);
+    velocity = diameter * pi / (instant - previnstant) ;
     velocity = velocity * 1000;
-    accleration = accleration * 100000000;
-
-
-
   }
-
 
 }
