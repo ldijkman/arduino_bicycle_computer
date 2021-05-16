@@ -1,6 +1,6 @@
 // DIY BiCycle Speedometer 
 // distance in meter and speed in kilometer/hour 
-// displays a * when magnet on sensor and displays wheelcount
+// displays a * when magnet on Hall sensor and displays wheelcount
 // arduino nano 
 // hall sensor 
 // oled display
