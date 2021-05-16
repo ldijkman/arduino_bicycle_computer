@@ -65,6 +65,7 @@ void loop()
   display.clearDisplay();
   display.setTextSize(3);
   display.setCursor(0, 0);
+  // display.print(velocity);                // m/s ?????????
   display.print(velocity * (18 / 5), 1);     // 1 meter per second = 3.6 kilometers per hour
                                              // 18 / 5 = 3.6
   display.setCursor(85, 0);
@@ -99,13 +100,14 @@ void loop()
 void cross()
 {
   previnstant = instant;
-  instant = micros() / 1000.0;
+  instant = micros() / 1000.0;             // microsecond 1.E-6 0.000001 sec / 1000           =        1,E-9  .000000001
   wheelcount++;
 
   if (wheelcount > 2)
   {
     distance = wheelcount * diameter * pi;                              // wheelcount x wheel circumference
-    velocity = (diameter * pi / (instant - previnstant))  * 1000;
+    velocity = (diameter * pi / (instant - previnstant)) * 1000;        // (wheel circumference / elapsed time in milionstesec) x 1000 = meterpersecond?????????
+
   }
 
 }
