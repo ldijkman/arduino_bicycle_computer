@@ -67,10 +67,14 @@ void loop()
   display.setTextSize(3);
   display.setCursor(0, 0);
   // display.print(velocity);                // m/s ?????????
-  display.print(velocity * (18 / 5), 1);     // 1 meter per second = 3.6 kilometers per hour
+  display.print(velocity * 3.6, 1);          // 1 meter per second = 3.6 kilometers per hour
                                              // 18 / 5 = 3.6
+                                             
+  // display.print(velocity * 2.23694, 1);     // m/s to mph                                       
   display.setCursor(85, 0);
   display.print("km");
+  // display.setCursor(80, 0);
+  // display.print("mph");
 
   display.setTextSize(1);
   display.setCursor(0, 25);
@@ -108,7 +112,7 @@ void cross()
   if (wheelcount > 2)
   {
     distance = wheelcount * circumference;                              // wheelcount x wheel circumference
-    velocity = (circumference / (instant - previnstant)) * 1000;        // (wheel circumference / elapsed time in millisec) x 1000 = meterpersecond?????????
+    velocity = (circumference / (instant - previnstant)) * 1000;        // (wheel circumference / elapsed time in millisec) x 1000 = meterpersecond???
   }
 
 }
