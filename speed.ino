@@ -5,6 +5,9 @@
 // oled display
 // https://www.instructables.com/DIY-Cycle-Speedometer/
 
+// DIY BiCycle Speedometer distance and km/h arduino nano hall sensor oled display
+// https://www.instructables.com/DIY-Cycle-Speedometer/
+
 #include <Adafruit_SSD1306.h>
 #include <Wire.h>
 
@@ -164,3 +167,4 @@ void cross()
 
 
 }
+
