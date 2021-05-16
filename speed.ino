@@ -104,9 +104,8 @@ void cross()
 
   if (wheelcount > 2)
   {
-    distance = wheelcount * diameter * pi;
+    distance = wheelcount * diameter * pi;                              // wheelcount x wheel circumference
     velocity = (diameter * pi / (instant - previnstant))  * 1000;
-
   }
 
 }
