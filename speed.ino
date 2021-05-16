@@ -18,6 +18,7 @@
 
 #define pi 3.14
 #define diameter .71                 // wheel diameter in meters .71m = 71cm = 710mm
+float circumference = diameter * pi;
 #define numberofreadings 6
 
 
@@ -100,14 +101,14 @@ void loop()
 void cross()
 {
   previnstant = instant;
-  instant = millis();                         // microsecond 1.E-6 0.000001 sec / 1000           =        1,E-9  .000000001
+  instant = millis();                         
 //instant = micros() / 1000.0; 
   wheelcount++;
 
   if (wheelcount > 2)
   {
-    distance = wheelcount * diameter * pi;                              // wheelcount x wheel circumference
-    velocity = (diameter * pi / (instant - previnstant)) * 1000;        // (wheel circumference / elapsed time in millisec) x 1000 = meterpersecond?????????
+    distance = wheelcount * circumference;                              // wheelcount x wheel circumference
+    velocity = (circumference / (instant - previnstant)) * 1000;        // (wheel circumference / elapsed time in millisec) x 1000 = meterpersecond?????????
   }
 
 }
