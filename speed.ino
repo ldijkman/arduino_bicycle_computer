@@ -100,14 +100,14 @@ void loop()
 void cross()
 {
   previnstant = instant;
-  instant = micros() / 1000.0;             // microsecond 1.E-6 0.000001 sec / 1000           =        1,E-9  .000000001
+  instant = millis();                         // microsecond 1.E-6 0.000001 sec / 1000           =        1,E-9  .000000001
+//instant = micros() / 1000.0; 
   wheelcount++;
 
   if (wheelcount > 2)
   {
     distance = wheelcount * diameter * pi;                              // wheelcount x wheel circumference
-    velocity = (diameter * pi / (instant - previnstant)) * 1000;        // (wheel circumference / elapsed time in milionstesec) x 1000 = meterpersecond?????????
-
+    velocity = (diameter * pi / (instant - previnstant)) * 1000;        // (wheel circumference / elapsed time in millisec) x 1000 = meterpersecond?????????
   }
 
 }
