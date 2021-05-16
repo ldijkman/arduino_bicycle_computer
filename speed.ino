@@ -100,11 +100,19 @@ void loop()
     display.print(" m");
 
     display.setTextSize(1);
+
+    if (digitalRead(2)) {
+      display.setCursor(75, 25);
+      display.print(" ");
+    } else {
+      display.setCursor(75, 25);
+      display.print("*");
+    }
     display.setCursor(85, 25);
     display.print(wheelcount);
 
     //  display.setCursor(60, 25);
-    //   display.print(wheelcount);
+    //  display.print(wheelcount);
     display.display();
 
     // }
