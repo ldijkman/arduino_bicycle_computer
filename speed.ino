@@ -89,7 +89,7 @@ void loop()
     display.print(" ");
   } else {
     display.setCursor(75, 25);
-    display.print("*");
+    display.print("*");        // print a star=* on display if magnet is on hall sensor
   }
 
   display.setCursor(85, 25);
