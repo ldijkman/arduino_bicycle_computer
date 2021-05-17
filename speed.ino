@@ -113,7 +113,7 @@ void input2_interrupt_function_call()
 
   if (wheelcount > 2)
   {
-    distance = wheelcount * circumference;                              // wheelcount x wheel circumference
+    distance = wheelcount * circumference;                              // wheelcount x wheel circumference = distance travel in meters
     velocity = (circumference / (instant - previnstant)) * 1000;        // (wheel circumference / elapsed time in millisec) x 1000 = meterpersecond???
   }
 
