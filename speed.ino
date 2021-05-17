@@ -31,10 +31,9 @@
 float circumference = diameter * pi;     // calculate circumference from diameter = distance travel in 1 wheel rotation in meters
 // float circumference = 2.2294;         // wheelcircumference = distance travel in 1 wheel rotation in meters
 
-#define OLED_RESET 4                     // i think this is of no use
+#define OLED_RESET 4                    
 Adafruit_SSD1306 display(OLED_RESET);
-
-const int chipSelect = 9;               // i think this is of no use
+// const int chipSelect = 9;               // i think this is of no use
 
 int n = 0;
 int count = 0;
@@ -55,8 +54,7 @@ void setup()
   attachInterrupt(digitalPinToInterrupt(2), input2_interrupt_function_call, FALLING);
 
   display.begin(SSD1306_SWITCHCAPVCC , 0x3C);    // 0x3C i2c adress of oled display (use i2c scanner example?)
-  display.setTextColor(WHITE);                   // i think this is of no use
-  display.setTextSize(1);                        // i think this is of no use
+  display.setTextColor(WHITE);                   
 }
 
 
