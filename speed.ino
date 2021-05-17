@@ -22,6 +22,7 @@
 // Digital input 2 connected to Hall Effect sensor A3144 https://github.com/ldijkman/arduino_bicycle_computer/raw/main/A3144_hall_effect.jpg
 
 // display turns off after 60 seconds no wheelcount to save energy
+// display turns on again after new wheelcount
 
 
 #include <Adafruit_SSD1306.h>  // https://github.com/adafruit/Adafruit_SSD1306
