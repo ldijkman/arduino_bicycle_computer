@@ -1,5 +1,5 @@
 # arduino_bicycle_computer
-simple arduino oled bicycle computer
+simple arduino i2c oled bicycle computer
 
 code https://github.com/ldijkman/arduino_bicycle_computer/blob/main/speed.ino
 
