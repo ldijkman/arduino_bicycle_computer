@@ -15,9 +15,11 @@
 
 // https://github.com/ldijkman/arduino_bicycle_computer/discussions
 
-// i2c pins on arduino nano
+// i2c pins on arduino nano to 128x64 i2c oled display
 // A4 = SDA
 // A5 = SCL
+
+// Digital input 2 connected to Hall Effect sensor A3144 https://github.com/ldijkman/arduino_bicycle_computer/raw/main/A3144_hall_effect.jpg
 
 
 #include <Adafruit_SSD1306.h>  // https://github.com/adafruit/Adafruit_SSD1306
