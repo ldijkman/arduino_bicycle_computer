@@ -9,6 +9,7 @@
 // DIY BiCycle Speedometer distance and km/h arduino nano hall sensor oled display
 // https://www.instructables.com/DIY-Cycle-Speedometer/
 
+// https://github.com/ldijkman/arduino_bicycle_computer
 // https://github.com/ldijkman/arduino_bicycle_computer/blob/main/speed.ino
 
 
