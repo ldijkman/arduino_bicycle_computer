@@ -108,7 +108,7 @@ void input2_interrupt_function_call()
   previnstant = instant;                        // load previous millis() countervalue in previnstant              
   instant = millis();                           // looad current millis() countervalue in instant                        
 //instant = micros() / 1000.0; 
-  wheelcount++;
+  wheelcount++;                                 // add 1 to wheelcount
 
   if (wheelcount > 2)
   {
