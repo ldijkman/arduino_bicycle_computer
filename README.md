@@ -10,3 +10,7 @@ arduino oled bicycle computer
 61 = wheelcount pulses
 
 <img src="https://github.com/ldijkman/arduino_bicycle_computer/blob/main/oled_speed.jpg">
+
+maybe the pullup resistor is not needed since input is pulled up in the code
+
+<img src="https://github.com/ldijkman/arduino_bicycle_computer/blob/main/A3144_hall_effect.jpg">
