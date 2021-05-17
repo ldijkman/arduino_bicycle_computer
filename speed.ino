@@ -12,6 +12,8 @@
 // https://github.com/ldijkman/arduino_bicycle_computer
 // https://github.com/ldijkman/arduino_bicycle_computer/blob/main/speed.ino
 
+// https://github.com/ldijkman/arduino_bicycle_computer/discussions
+
 
 #include <Adafruit_SSD1306.h> // https://github.com/adafruit/Adafruit_SSD1306
 #include <Wire.h>
