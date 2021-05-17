@@ -64,7 +64,6 @@ void loop()
   if (wheelcount == lastwheelcount) {
     if (millis() - starttime >= 10000) {
       velocity = 0;                       // if for 10 seonds no wheelcount set speed to zero 0 km/h
-      sleepDisplay(&display);
     }
     if (millis() - starttime >= 60000) {                     
       sleepDisplay(&display);             // if for 60 seonds no wheelcount blank screen sleep display
