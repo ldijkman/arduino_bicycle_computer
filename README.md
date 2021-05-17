@@ -1,6 +1,8 @@
 # arduino_bicycle_computer
 arduino oled bicycle computer
 
+code https://github.com/ldijkman/arduino_bicycle_computer/blob/main/speed.ino
+
 10.5 Km = speed
 
 136 = distance in meter 
