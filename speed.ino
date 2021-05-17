@@ -15,6 +15,10 @@
 
 // https://github.com/ldijkman/arduino_bicycle_computer/discussions
 
+// i2c pins on arduino nano
+// A4 = SDA
+// A5 = SCL
+
 
 #include <Adafruit_SSD1306.h>  // https://github.com/adafruit/Adafruit_SSD1306
 #include <Wire.h>
@@ -25,10 +29,10 @@
 float circumference = diameter * pi;     // calculate circumference from diameter = distance travel in 1 wheel rotation in meters
 // float circumference = 2.2294;         // wheelcircumference = distance travel in 1 wheel rotation in meters
 
-#define OLED_RESET 4
+#define OLED_RESET 4                     // i think this is of no use
 Adafruit_SSD1306 display(OLED_RESET);
 
-const int chipSelect = 9;
+const int chipSelect = 9;               // i think this is of no use
 
 int n = 0;
 int count = 0;
@@ -48,9 +52,9 @@ void setup()
   pinMode(2, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(2), input2_interrupt_function_call, FALLING);
 
-  display.begin(SSD1306_SWITCHCAPVCC , 0x3C);
-  display.setTextColor(WHITE);
-  display.setTextSize(1);
+  display.begin(SSD1306_SWITCHCAPVCC , 0x3C);    // 0x3C i2c adress of oled display (use i2c scanner example?)
+  display.setTextColor(WHITE);                   // i think this is of no use
+  display.setTextSize(1);                        // i think this is of no use
 }
 
 
