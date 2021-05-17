@@ -70,7 +70,6 @@ void loop()
   display.setCursor(0, 0);
   // display.print(velocity);                // m/s ?????????
   display.print(velocity * 3.6, 1);          // 1 meter per second = 3.6 kilometers per hour
-                                             // 18 / 5 = 3.6
                                              
   // display.print(velocity * 2.23694, 1);     // m/s to mph                                       
   display.setCursor(85, 0);
