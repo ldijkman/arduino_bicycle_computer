@@ -25,7 +25,7 @@
 #include <Adafruit_SSD1306.h>  // https://github.com/adafruit/Adafruit_SSD1306
 #include <Wire.h>
 
-
+// for perfect measurement change wheeldiameter or circumference to match your wheel
 #define pi 3.14
 #define diameter .71                     // wheel diameter in meters .71m = 71cm = 710mm
 float circumference = diameter * pi;     // calculate circumference from diameter = distance travel in 1 wheel rotation in meters
