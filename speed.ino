@@ -2,7 +2,7 @@
 // distance in meter and speed in kilometer/hour
 // displays a * when magnet on Hall sensor and displays wheelcount
 // arduino nano
-// hall sensor
+// hall sensor A3144 (does not debounce like a switch)
 // oled display
 // https://www.instructables.com/DIY-Cycle-Speedometer/
 
