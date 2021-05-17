@@ -1,8 +1,8 @@
-// DIY BiCycle Speedometer
+// DIY BiCycle Speedometer https://github.com/ldijkman/arduino_bicycle_computer/blob/main/README.md
 // distance in meter and speed in kilometer/hour
 // displays a * when magnet on Hall sensor and displays wheelcount
 // arduino nano
-// hall sensor A3144 (does not debounce like a switch)
+// hall sensor A3144 (does not debounce like a switch) https://github.com/ldijkman/arduino_bicycle_computer/raw/main/A3144_hall_effect.jpg
 // oled display
 // https://www.instructables.com/DIY-Cycle-Speedometer/
 
