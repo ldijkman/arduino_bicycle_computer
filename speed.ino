@@ -21,7 +21,7 @@
 
 #define pi 3.14
 #define diameter .71                 // wheel diameter in meters .71m = 71cm = 710mm
-float circumference = diameter * pi; // calculate circumference = distance travel in 1 wheel rotation 
+float circumference = diameter * pi; // calculate circumference = distance travel in 1 wheel rotation in meters
 
 
 #define OLED_RESET 4
