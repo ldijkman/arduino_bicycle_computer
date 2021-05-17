@@ -15,14 +15,13 @@
 // https://github.com/ldijkman/arduino_bicycle_computer/discussions
 
 
-#include <Adafruit_SSD1306.h> // https://github.com/adafruit/Adafruit_SSD1306
+#include <Adafruit_SSD1306.h>  // https://github.com/adafruit/Adafruit_SSD1306
 #include <Wire.h>
 
 
 #define pi 3.14
 #define diameter .71                 // wheel diameter in meters .71m = 71cm = 710mm
 float circumference = diameter * pi;
-#define numberofreadings 6
 
 
 #define OLED_RESET 4
@@ -46,7 +45,7 @@ unsigned long starttime;
 void setup()
 {
   pinMode(2, INPUT_PULLUP);
-  attachInterrupt(digitalPinToInterrupt(2), cross, FALLING);
+  attachInterrupt(digitalPinToInterrupt(2), input2_interrupt_function_call, FALLING);
 
   display.begin(SSD1306_SWITCHCAPVCC , 0x3C);
   display.setTextColor(WHITE);
@@ -105,7 +104,7 @@ void loop()
 
 
 
-void cross()
+void input2_interrupt_function_call()
 {
   previnstant = instant;
   instant = millis();                         
