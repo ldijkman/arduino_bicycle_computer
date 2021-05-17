@@ -3,7 +3,7 @@
 // displays a * when magnet on Hall sensor and displays wheelcount
 // arduino nano
 // hall sensor A3144 (does not debounce like a switch) https://github.com/ldijkman/arduino_bicycle_computer/raw/main/A3144_hall_effect.jpg
-// oled display
+// i2c oled display
 // https://www.instructables.com/DIY-Cycle-Speedometer/
 
 // DIY BiCycle Speedometer distance and km/h arduino nano hall sensor oled display
