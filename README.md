@@ -3,6 +3,9 @@ simple arduino i2c oled bicycle computer
 
 code https://github.com/ldijkman/arduino_bicycle_computer/blob/main/speed.ino
 
+more pixels used in text == better display
+code https://github.com/ldijkman/arduino_bicycle_computer/blob/main/speed_better_display.ino
+
 10.5 Km = speed
 
 136 = distance in meter 
