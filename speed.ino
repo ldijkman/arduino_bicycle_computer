@@ -1,3 +1,5 @@
+// more pixels used in text == better display code https://github.com/ldijkman/arduino_bicycle_computer/blob/main/speed_better_display.ino
+
 // DIY BiCycle Speedometer https://github.com/ldijkman/arduino_bicycle_computer/blob/main/README.md
 // distance in meter and speed in kilometer/hour
 // displays a * when magnet on A3144 Hall sensor and displays wheelcount
