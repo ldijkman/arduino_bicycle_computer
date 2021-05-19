@@ -38,6 +38,9 @@
 
 // bought a cheap 3euro 1800mah dumb usb powerbank https://www.action.com/nl-nl/p/grundig-powerbank-sleutelhanger/
 // this grundig usb powerbank does not switch off on low current draw
+// arduino nano Power Consumption	19 mA ???
+// oled maybe Power Consumption	20ma ???
+// power enough for 40 hours ???
 
 #include <Adafruit_SSD1306.h>  // https://github.com/adafruit/Adafruit_SSD1306
 #include <Wire.h>
