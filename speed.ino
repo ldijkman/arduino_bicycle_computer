@@ -27,7 +27,7 @@
 // bike ride test 
 // daylight sunlight visbility of oled is disapointing bad
 // speed km diplay works very good
-// arduino says 29550 meter 13255 weelcounts
+// arduino says 29550 meter 13255 weelcounts (=diameter 0.71meter)
 // mytracks phone gps says 29.0km
 // recalculate wheel settings
 // makes 29000 / 13255 = 2,187854 meter wheel circumference
