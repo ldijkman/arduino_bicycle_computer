@@ -36,6 +36,7 @@
 
 // 28inch tire inflate at 75psi 75 pounds per square inch = 5.17106797 bar
 // think i did 4 Bar
+// soft tire affects wheeldiameter / wheelcircumerence
 
 // bought a cheap 3euro 1800mah dumb usb powerbank https://www.action.com/nl-nl/p/grundig-powerbank-sleutelhanger/
 // this grundig usb powerbank does not switch off on low current draw
