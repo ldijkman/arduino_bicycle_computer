@@ -29,8 +29,8 @@
 // speed km diplay works very good
 // arduino says 29550 meter 13255 weelcounts
 // mytracks phone gps says 29.0km
-// makes 29000 / 13255 = 2,187854 wheel circumference
-// makes 2,187854 / 3.14 = 0.6967687 wheel diameter
+// makes 29000 / 13255 = 2,187854 meter wheel circumference
+// makes 2,187854 / 3.14 = 0.6967687 meter wheel diameter
 // see next time if arduino and gps compare
 
 // 28inch tire inflate at 75psi 75 pounds per square inch = 5.17106797 bar
