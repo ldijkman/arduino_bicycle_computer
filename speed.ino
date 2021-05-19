@@ -28,7 +28,7 @@
 // daylight sunlight visbility of oled is disapointing bad
 // speed km diplay works very good
 // arduino says 29550 meter 13255 weelcounts
-// mytracks phone gps says 29km
+// mytracks phone gps says 29.0km
 // makes 29000 / 13255 = 2,187854 wheel circumference
 // makes 2,187854 / 3.14 = 0.6967687 wheel diameter
 // see next time if arduino and gps compare
