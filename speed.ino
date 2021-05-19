@@ -24,15 +24,24 @@
 // display turns off after 60 seconds no wheelcount to save energy
 // display turns on again after new wheelcount
 
+// bike ride test
+// arduino says 29550 meter 13255 weelcounts
+// mytracks phone gps says 29km
+// makes 29000 / 13255 = 2,187854 wheel circumference
+// makes 2,187854 / 3.14 = 0.6967687 wheel diameter
+// see next time if arduino and gps compare
+
+// 28inch tire inflate at 75psi 75 pounds per square inch = 5.17106797 bar
+// think i did 4 Bar
 
 #include <Adafruit_SSD1306.h>  // https://github.com/adafruit/Adafruit_SSD1306
 #include <Wire.h>
 
 // for perfect measurement change wheeldiameter or circumference to match your wheel
 #define pi 3.14
-#define diameter .71                     // wheel diameter in meters .71m = 71cm = 710mm
-float circumference = diameter * pi;     // calculate circumference from diameter = distance travel in 1 wheel rotation in meters
-// float circumference = 2.2294;         // wheelcircumference = distance travel in 1 wheel rotation in meters
+#define diameter 0.6967687                    // .71   // wheel diameter in meters .71m = 71cm = 710mm
+float circumference = diameter * pi;          // calculate circumference from diameter = distance travel in 1 wheel rotation in meters
+// float circumference = 2,187854;            //2.2294;  // wheelcircumference = distance travel in 1 wheel rotation in meters
 
 #define OLED_RESET 4                    
 Adafruit_SSD1306 display(OLED_RESET);
