@@ -4,7 +4,7 @@
 // arduino nano
 // hall sensor A3144 (does not debounce like a switch) https://github.com/ldijkman/arduino_bicycle_computer/raw/main/A3144_hall_effect.jpg
 // i2c oled display 128x64
-// use a neodymium magnet for greater detection range
+// use a neodymium magnet for greater detection range => sensor is north pole sensitive, so use correct side off magnet
 // https://www.instructables.com/DIY-Cycle-Speedometer/
 
 // DIY BiCycle Speedometer distance and km/h arduino nano hall sensor oled display
