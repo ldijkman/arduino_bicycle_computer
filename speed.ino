@@ -99,7 +99,7 @@ void loop()
   display.setTextSize(3);
   display.setCursor(0, 0);
   // display.print(velocity);                // m/s ?????????
-  display.print(velocity * 3.6, 1);          // 1 meter per second = 3.6 kilometers per hour
+  display.print(velocity * 3.6, 1);          // 1 meter per second = 3.6 kilometers per hour  (round to 1 digit like .1)
                                              
   // display.print(velocity * 2.23694, 1);     // m/s to mph                                       
   display.setCursor(85, 0);
@@ -109,7 +109,7 @@ void loop()
 
   display.setTextSize(1);
   display.setCursor(0, 25);
-  display.print(distance, 0);
+  display.print(distance, 0);         // round to 0 digits behind . (point)
   display.print(" m");
 
   display.setTextSize(1);
