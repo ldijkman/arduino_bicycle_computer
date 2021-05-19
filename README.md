@@ -23,4 +23,4 @@ A3144 is north pole sensitive (needs correct magnet orientation)
 <img src="https://github.com/ldijkman/arduino_bicycle_computer/blob/main/A3144_hall_effect.jpg">
 
 
-Add an AD8232 for heart beat rate ;-)
+Add an AD8232 for heart beat speed rate ;-)
