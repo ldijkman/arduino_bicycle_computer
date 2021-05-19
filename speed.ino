@@ -24,7 +24,9 @@
 // display turns off after 60 seconds no wheelcount to save energy
 // display turns on again after new wheelcount
 
-// bike ride test
+// bike ride test 
+// daylight sunlight visbility of oled is disapointing bad
+// speed km diplay works very good
 // arduino says 29550 meter 13255 weelcounts
 // mytracks phone gps says 29km
 // makes 29000 / 13255 = 2,187854 wheel circumference
