@@ -48,9 +48,7 @@
 
 #include <Adafruit_SSD1306.h>  // https://github.com/adafruit/Adafruit_SSD1306
 #include <Wire.h>
-#include <Adafruit_GFX.h>
-#include <Fonts/FreeMonoBoldOblique12pt7b.h>
-#include <Fonts/FreeSerif9pt7b.h>
+
 
 
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
