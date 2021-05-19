@@ -25,8 +25,8 @@
 // display turns on again after new wheelcount
 
 // bike ride test 
-// daylight sunlight visbility of oled is disapointing bad
-// speed km diplay works very good
+// daylight sunlight visibility of oled is disapointing bad
+// speed km display works very good
 // arduino says 29550 meter 13255 weelcounts (=diameter 0.71meter)
 // mytracks phone gps says 29.0km
 // recalculate wheel settings
@@ -36,7 +36,7 @@
 
 // 28inch tire inflate at 75psi 75 pounds per square inch = 5.17106797 bar
 // think i did 4 Bar
-// soft tire affects wheeldiameter / wheelcircumerence
+// soft tire affects wheeldiameter / wheelcircumference
 
 // bought a cheap 3euro 1800mah dumb usb powerbank https://www.action.com/nl-nl/p/grundig-powerbank-sleutelhanger/
 // this grundig usb powerbank does not switch off on low current draw
@@ -85,10 +85,10 @@ void loop()
 {
   if (wheelcount == lastwheelcount) {
     if (millis() - starttime >= 10000) {
-      velocity = 0;                       // if for 10 seonds no wheelcount set speed to zero 0 km/h
+      velocity = 0;                       // if for 10 seconds no wheelcount set speed to zero 0 km/h
     }
     if (millis() - starttime >= 60000) {                     
-      sleepDisplay(&display);             // if for 60 seonds no wheelcount blank screen sleep display
+      sleepDisplay(&display);             // if for 60 seconds no wheelcount blank screen sleep display
     }
   } else {
     starttime = millis();
