@@ -57,15 +57,13 @@ float circumference = diameter * pi;          // calculate circumference from di
 Adafruit_SSD1306 display(OLED_RESET);
 // const int chipSelect = 9;               // i think this is of no use
 
-int n = 0;
-int count = 0;
+
 double instant = 0;
 double previnstant = 0;
 unsigned long wheelcount = 0;
 unsigned long lastwheelcount = 0;
 float velocity = 0;
 float distance = 0;
-int temp;
 unsigned long starttime;
 
 
