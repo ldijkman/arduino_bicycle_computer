@@ -28,7 +28,8 @@
 // daylight sunlight visibility of oled is disapointing bad
 // speed km display works very good
 // arduino says 29550 meter 13255 weelcounts (=diameter 0.71meter)
-// mytracks phone gps says 29.0km
+// mytracks phone gps says 29.0km 
+// My Tracks route http://mt.513gs.com/?d=9c834b&l=nl&u=1
 // recalculate wheel settings
 // makes 29000 / 13255 = 2,187854 meter wheel circumference
 // makes 2,187854 / 3.14 = 0.6967687 meter wheel diameter
