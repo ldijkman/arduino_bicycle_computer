@@ -90,14 +90,14 @@ void setup()
 void loop()
 {
   if (wheelcount == lastwheelcount) {
-    if (millis() - starttime >= 10000) {
+    if (millis() - starttime >= 10000) {  // could use instant for starttime
       velocity = 0;                       // if for 10 seconds no wheelcount set speed to zero 0 km/h
     }
-    if (millis() - starttime >= 60000) {                     
+    if (millis() - starttime >= 60000) {  // could use instant for starttime                  
       sleepDisplay(&display);             // if for 60 seconds no wheelcount blank screen sleep display
     }
   } else {
-    starttime = millis();
+    starttime = millis();                // skip this line starttime => // could use instant for starttime 
     lastwheelcount = wheelcount;
     wakeDisplay(&display);
   }
