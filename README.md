@@ -28,3 +28,5 @@ Use a neodymium magnet for greater detection range
 Add an AD8232 for heart beat speed rate ;-)
 
 Alike heartbeat on fitness  bicycle 
+
+ECG Monitor
