@@ -29,4 +29,4 @@ Add an AD8232 for heart beat speed rate ;-)
 
 Alike heartbeat on fitness  bicycle 
 
-ECG Monitor
+ECG Monitor https://www.google.com/search?q=AD8232
