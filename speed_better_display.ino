@@ -5,6 +5,10 @@
 // displays a * when magnet on A3144 Hall sensor and displays wheelcount
 // arduino nano
 // hall sensor A3144 (does not debounce like a switch) https://github.com/ldijkman/arduino_bicycle_computer/raw/main/A3144_hall_effect.jpg
+// **********NOTE***********
+// if you test this with a switch or reedswitch => it will debounce => giving incorect readings
+// hall sensor A3144 (does not debounce like a switch)
+// *************************
 // i2c oled display 128x64
 // use a neodymium magnet for greater detection range => sensor is north pole sensitive, so use correct side off magnet
 // https://www.instructables.com/DIY-Cycle-Speedometer/
