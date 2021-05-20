@@ -77,7 +77,7 @@ unsigned long wheelcount = 0;
 unsigned long lastwheelcount = 0;
 float velocity = 0;
 float distance = 0;
-unsigned long starttime;
+
 
 
 
@@ -97,14 +97,13 @@ void setup()
 void loop()
 {
   if (wheelcount == lastwheelcount) {
-    if (millis() - starttime >= 10000) {
+    if (millis() - instant >= 10000) {
       velocity = 0;                       // if for 10 seconds no wheelcount set speed to zero 0 km/h
     }
-    if (millis() - starttime >= 60000) {                     
+    if (millis() - instant >= 60000) {                     
       sleepDisplay(&display);             // if for 60 seconds no wheelcount blank screen sleep display
     }
   } else {
-    starttime = millis();
     lastwheelcount = wheelcount;
     wakeDisplay(&display);
   }
