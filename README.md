@@ -31,4 +31,8 @@ Alike heartbeat on fitness  bicycle
 
 ECG Monitor https://www.google.com/search?q=AD8232
 
+Nice magnet holder?
+
 https://www.thingiverse.com/thing:2443305
+
+<img src="https://github.com/ldijkman/arduino_bicycle_computer/blob/main/Screenshot_20210520-170019_Chrome.jpg">
