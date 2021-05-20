@@ -20,6 +20,8 @@ maybe the pullup resistor is not needed since input is pulled up in the code
 
 A3144 is north pole sensitive (needs correct magnet orientation)
 
+Use a neodymium magnet for greater detection range
+
 <img src="https://github.com/ldijkman/arduino_bicycle_computer/blob/main/A3144_hall_effect.jpg">
 
 
