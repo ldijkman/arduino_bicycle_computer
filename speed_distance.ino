@@ -101,7 +101,7 @@ void loop()
     if (millis() - instant >= 10000) {
       velocity = 0;                       // if for 10 seconds no wheelcount set speed to zero 0 km/h
     }
-    if (millis() - instant >= 60000) {
+    if (millis() - instant >= 5 * 60000) {
       sleepDisplay(&display);             // if for 60 seconds no wheelcount blank screen sleep display
     }
   } else {
@@ -139,6 +139,10 @@ void loop()
 
     display.setTextSize(3);
     display.setCursor(0, 20);
+    if(distance<100)display.print(" ");
+    if(distance<1000)display.print(" ");
+    if(distance<10000)display.print(" ");
+    if(distance<100000)display.print(" ");
     display.print(distance, 0);         // round to 0 digits behind . (point)
     display.setTextSize(1);
     display.print(" m");
