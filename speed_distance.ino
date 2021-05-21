@@ -1,4 +1,5 @@
 // better display more pixels used for text
+// if velocity speed == 0 display distance
 
 // DIY BiCycle Speedometer https://github.com/ldijkman/arduino_bicycle_computer/blob/main/README.md
 // distance in meter and speed in kilometer/hour
