@@ -31,6 +31,8 @@ Alike heartbeat on fitness  bicycle
 
 ECG Monitor https://www.google.com/search?q=AD8232
 
+3D Printer
+
 Nice magnet holder?
 
 https://www.thingiverse.com/thing:2443305
