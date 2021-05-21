@@ -37,4 +37,6 @@ Nice magnet holder?
 
 https://www.thingiverse.com/thing:2443305
 
+https://www.thingiverse.com/thing:4336157
+
 <img src="https://github.com/ldijkman/arduino_bicycle_computer/blob/main/Screenshot_20210520-170019_Chrome.jpg">
