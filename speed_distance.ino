@@ -179,7 +179,7 @@ void input2_interrupt_function_call()
 
   distance = wheelcount * circumference;                              // wheelcount x wheel circumference = distance travel in meters
   velocity = (circumference / (instant - previnstant)) * 1000;        // (wheel circumference / elapsed time in millisec) x 1000 = meterpersecond???
-
+  // int RPM=(1000/(instant - previnstant))*60;                       // 1000ms / elapsed time in millis = pulspersec x 60 = puls per minute???
 }
 
 void sleepDisplay(Adafruit_SSD1306* display) {
